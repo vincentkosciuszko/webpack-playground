@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import '@csstools/normalize.css';
+@import '@carbon/colors/scss/colors';
+
+@import 'media';
+
+
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: $carbon--cool-gray-10;
+    color: $carbon--gray-90;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go {
+    color: $carbon--gray-70;
+    text-shadow: 1px 1px 0 $carbon--white-0, 2px 2px 0 $carbon--cool-gray-20;
+}

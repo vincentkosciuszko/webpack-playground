@@ -1,0 +1,40 @@
+// Breakpoints
+$viewport-sm: 30em;
+$viewport-md: 40em;
+$viewport-lg: 60em;
+$viewport-xl: 80em;
+
+// Small
+@mixin sm {
+    @media (min-width: #{$viewport-sm}) {
+        @content;
+    }
+}
+
+// Medium
+@mixin md {
+    @media (min-width: #{$viewport-md}) {
+        @content;
+    }
+}
+
+// Large
+@mixin lg {
+    @media (min-width: #{$viewport-lg}) {
+        @content;
+    }
+}
+
+// Extra large
+@mixin xl {
+    @media (min-width: #{$viewport-xl}) {
+        @content;
+    }
+}
+
+// Custom devices
+@mixin raw($size) {
+    @media (min-width: $size + 'px') {
+        @content;
+    }
+}
