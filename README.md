@@ -5,7 +5,7 @@ A very simple boilerplate I use when I want to quickly scaffold an environment t
 ## Installation
 
 ```
-git clone https://github.com/vnzko/webpack-playground ./my-idea
+git clone https://github.com/vincentkosciuszko/webpack-playground ./my-idea
 cd my-idea
 yarn
 ```
